@@ -1,0 +1,39 @@
+html {
+    background-color: white;
+}
+
+body {
+    width: 550px;
+    margin: 50px auto;
+    background-color: #BBDAEC;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: black;
+    font-size: 8px;
+}
+
+.display {
+    width: 95%;
+    height: 60px;
+    font-size: 3.2em;
+    font-weight: 500;
+    text-align: right;
+    margin-left: 2%;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+}
+
+.botones {
+    width: 100%;
+}
+
+button {
+    font-size: 2em;
+    width: 25%;
+    height: 40px;
+    /* margin-right: -4px; */
+    border: 1.3px dotted gainsboro;
+    background-color: #D7E8F4;
+    outline: none;
+    float: left;
+}

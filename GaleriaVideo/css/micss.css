@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: #F2F2F2;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 580px;
+}
+
+header{
+    margin-top: 2em;
+    margin-left: 80px;
+    font-size: 1.8rem;   
+    /* imagen */
+}
+header p{
+    display: inline-block;
+}
+header p span{
+    font-size: 1.8em;
+    color: #E93F25;
+}
+header img{
+    display: inline-block;
+    width: 120px;
+    transform: rotate(25deg);
+}
+header p nav{
+    font-size: 1.8em;
+}
+nav{
+    width: 100%;
+    margin-top: 35px;
+    background-color:#E93F25;    
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    /* padding: 10px 0px 10px ; */
+    /* text vertical center, espaciado de 1em por arriba y abajo */ 
+}
+
+li:hover{
+    background-color: #A01E0A;
+    transition:all 0.8ms ease ;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;    
+    width: 19%;
+}
+
+video{
+    width: 500px;
+    height: 280px;
+    /* efecto sombra */
+    /* alineado con section */
+}
+
+
+.tabla{
+    display: table;
+}
+.celda{
+    display: table-cell;
+}
+.videos{
+    width: 20%;
+}
+section{
+    /* espaciado con video */
+    background-color: white;
+    /*  */
+}
+h4{
+    width: 100%;
+    /* otro tamaaño varible 😒 */
+    color: #E93F25;
+    /* espaciado */
+    text-decoration: dotted 1px #E93F25;
+    /* separacion de los puntos con el texto */
+}
+.perfil{
+    width: 260px;
+    /* separacion img y span */
+}
+
+.perfil:hover{
+    box-shadow: 5px 3px  rgba(156, 143, 186, 1);
+    transition: all 0.5s ease;
+}
+
+
+section span {
+    text-align: justify;
+    /* alineacion con la imagen */
+    /* responsivo */
+}
+
+section a{
+    text-decoration: none;
+    color: #008A00;
+    font-weight: bold;
+    /* espaciado*/    
+}
+
+section a:hover{
+    color: #E93F25;
+}
