@@ -62,23 +62,32 @@ video{
 
 
 .tabla{
-    display: table;
+    display: table-cell;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 20px;
 }
 .celda{
     display: table-cell;
+    vertical-align: top;
+}
+.columna{
+    display: table-column;
 }
 .videos{
     width: 20%;
 }
 section{
-    /* espaciado con video */
+    
     background-color: white;
+    display: table-cell;
     /*  */
 }
 h4{
     width: 100%;
     /* otro tamaaño varible 😒 */
     color: #E93F25;
+    display: table-caption;
     /* espaciado */
     text-decoration: dotted 1px #E93F25;
     /* separacion de los puntos con el texto */
